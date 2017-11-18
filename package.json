@@ -1,0 +1,15 @@
+{
+  "name": "autobot-autoit-zerodha",
+  "version": "1.0.0",
+  "description": "Automation app for Pi application by Zerodha",
+  "main": "index.js",
+  "scripts": {
+    "test": "\\"
+  },
+  "author": "naveen.upbeat@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "repository":"https://github.com/naveen-upbeat/autobot-autoit-zerodha.git"
+}
