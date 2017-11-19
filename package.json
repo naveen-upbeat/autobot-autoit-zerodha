@@ -4,12 +4,24 @@
   "description": "Automation app for Pi application by Zerodha",
   "main": "index.js",
   "scripts": {
-    "test": "\\"
+    "test": "\\",
+    "start-db": ".\\server\\scripts\\start-db.bat",
+    "start-pi": ".\\server\\scripts\\start-pi.bat"
   },
   "author": "naveen.upbeat@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "gulp-shell": "^0.6.3",
+    "mongodb": "^2.2.33",
+    "node-cmd": "^3.0.0"
   },
-  "repository":"https://github.com/naveen-upbeat/autobot-autoit-zerodha.git"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/naveen-upbeat/autobot-autoit-zerodha.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
